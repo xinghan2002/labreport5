@@ -37,13 +37,13 @@ I used vimdiff on the results of running a bash for loop.
 
 - Expected output for file 201 should be empty.
 
-### c For the implementation that’s not correct, describe the bug (the problem in the code) in about 2-3 sentences. 
+### c. For the implementation that’s not correct, describe the bug (the problem in the code) in about 2-3 sentences. 
 
 - (File 194) When there are some extra text between the brackets and parenthesis, the program should automatically ignore those text and instead treat it as an actual link. This means we can not simply assume that one index after `[` would guarantee the start of a link content at line 29 (See Screenshot Below). 
 - (File 201) If there are `<` in between the text mentioned above, then the entire line should not be considered a link anymore. This means that at line 64-45 when a `<` or `>`is encountered there should be an if statement to reconsider the next possible sequence of link. (See Screenshot Below). 
 
 
-### d Provide a screenshot of code and highlight where the change needs to be made.
+### d. Provide a screenshot of code and highlight where the change needs to be made.
 - For File 194
 ![alt text](problem1.png)
 
